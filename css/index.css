@@ -2,3 +2,19 @@ p {
   font-size: 30px;
   color: #FF4365;
 }
+
+.jumbotron-fluid {
+  background-color: rgba(229, 198, 240, 0.9);
+}
+
+#impresiobares{
+  margin-top: 2%;
+}
+
+body{
+  background: pink url("../image/uni_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
