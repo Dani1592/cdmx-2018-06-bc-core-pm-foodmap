@@ -9,7 +9,9 @@ foto: "https://media.timeout.com/images/101658309/630/472/image.jpg"},
 {nombre:'TOM´S Leather Bar',
 dirección: 'Avenida de los Insurgentes Sur 357, Hipódromo',
 vestimenta: 'Informal',
-horarioDeApertura: 20},
+horarioDeApertura: 20,
+foto: "https://media.timeout.com/images/101658309/630/472/image2.jpg"},
+
 
 {nombre: 'Kinky Bar',
 dirección: 'Calle Amberes 1',

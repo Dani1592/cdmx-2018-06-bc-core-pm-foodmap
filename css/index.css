@@ -1,6 +1,7 @@
 p {
   font-size: 30px;
-  color: #FF4365;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000;
 }
 
 .jumbotron-fluid {
