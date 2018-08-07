@@ -71,7 +71,7 @@ for (let i= 0; i < result.length; i++){
     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-        <img src="../image/nichos bar.jpg" height="auto" width="auto">
+        <img src=${result[i].foto} height="auto" width="auto">
         </div>
       </div>
     </div>
@@ -87,6 +87,7 @@ console.log(result);
 let imprimibares = document.getElementById("impresiobares");
 let bares8 = "";
 for (let i= 0; i < result.length; i++){
+  console.log(result[i])
   bares8 += `<div class="jumbotron jumbotron-fluid">
   <div class="container">
     <h1 class="display-4">${result[i].nombre}</h1>
@@ -97,7 +98,7 @@ for (let i= 0; i < result.length; i++){
     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-        <img src="../image/nichos bar.jpg" height="auto" width="auto">
+        <img src=${result[i].foto} height="auto" width="auto">
         </div>
       </div>
     </div>
@@ -122,7 +123,7 @@ for (let i= 0; i < result.length; i++){
     <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-        <img src="../image/nichos bar.jpg" height="auto" width="auto">
+        <img src=${result[i].foto} height="auto" width="auto">
         </div>
       </div>
     </div>
